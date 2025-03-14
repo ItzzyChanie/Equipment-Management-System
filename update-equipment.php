@@ -95,7 +95,6 @@ if (isset($_GET['AssetNumber'])) {
             color: #fff;
             padding: 20px 15px;
             display: flex;
-            justify-content: space-between;
             align-items: center;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             width: 100%;
@@ -131,7 +130,7 @@ if (isset($_GET['AssetNumber'])) {
         }
         .form-container {
             padding: 20px;
-            margin-top: 95px;
+            margin-top: 105px;
             margin-left: 20px;
             margin-right: 20px;
             background-color:rgba(178, 55, 185, 0.35);
@@ -205,6 +204,7 @@ if (isset($_GET['AssetNumber'])) {
 
 <body>
     <div class = "header">
+    <img src = 'picture/Arellano_University_Logo.png' alt = 'Logo'>
         <div>
             <h1>Update Equipment</h1>
         </div>
