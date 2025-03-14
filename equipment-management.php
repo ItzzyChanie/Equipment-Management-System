@@ -150,7 +150,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
             padding: 10px;
             margin-top: 98px;
             margin-left: 10px;
-            background-color:rgba(84, 53, 85, 0.35);
+            background-color:rgb(255, 255, 255);
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
             width: calc(100% - 40px);
             overflow-x: auto;
