@@ -71,6 +71,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
             background-color: #f5f5f5;
             margin-left: 240px;
             overflow: auto;
+            padding-bottom: 10px;
         }
         .header {
             background-color: rgb(89, 3, 118);
@@ -146,49 +147,30 @@ $current_page = basename($_SERVER['PHP_SELF']);
             color: #a71d2a;
         }
         .table-container {
-            padding: 20px;
-            margin-top: 80px;
+            padding: 10px;
+            margin-top: 98px;
+            margin-left: 10px;
+            background-color:rgba(84, 53, 85, 0.35);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            width: calc(100% - 40px);
+            overflow-x: auto;
+            width: 99%;
         }
-        .styled-table {
+        table {
             width: 100%;
             border-collapse: collapse;
-            background-color: #fff;
-            margin: 10px 0;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            table-layout: fixed;
+            font-size: 14px; /* Make the font smaller */
         }
-        .styled-table th, .styled-table td {
-            padding: 8px 10px;
+        th, td {
+            padding: 5px; /* Reduce padding */
             border: 1px solid #ddd;
-            font-size: 0.8em;
             text-align: center;
+            word-wrap: break-word;
         }
-        .styled-table th {
-            background-color: rgb(89, 3, 118);
+        th {
+            background-color: rgb(112, 37, 137);
             color: #fff;
-        }
-        .styled-table tr:nth-child(even) {
-            background-color:rgba(232, 157, 221, 0.3);
-        }
-        .styled-table td.department {
-            width: 90px;
-        }
-        .styled-table td.branch {
-            width: 90px;
-        }
-        .styled-table th.action {
-            width: 100px;
-        }
-        .input-group .form-control {
-            height: 30px;
-            font-size: 0.9em;
-        }
-        .input-group-append .btn {
-            height: 30px;
-            font-size: 0.9em;
-            background-color: rgb(204, 9, 234);
-        }
-        .input-group-append .btn:hover {
-            background-color: rgb(159, 9, 161);
         }
     </style>
 
